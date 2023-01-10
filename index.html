@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            margin :10px;
+            display:flex;
+            justify-content: center;
+        }
+        .pagination{
+            position: fixed;   
+            bottom:250px
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "parent-data">
+
+    </div>
+    <div class = "parent">
+        <div class="pagination">
+            <button class="btn-previous" for="previous">Previous</button>
+            <button onclick = "child_clicked(this)"class="btn-1" for ="1">1</button>
+            <button onclick = "child_clicked(this)"class="btn-2" for ="2">2</button>
+            <button onclick = "child_clicked(this)"class="btn-3" for ="3">3</button>
+            <button onclick = "child_clicked(this)"class="btn-4" for ="4">4</button>
+            <button onclick = "child_clicked(this)"class="btn-5" for ="5">5</button>
+            <button class="btn-next" for="next">Next</button>
+        </div>
+    </div>
+
+   
+</body>
+<script src="./script.js"></script>
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+<script src="./pagination.js"></script>
+</html>
